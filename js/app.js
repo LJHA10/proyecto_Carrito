@@ -9,3 +9,6 @@ function cargarEventListener(){
     //
     listaCursos.addEventListener('click',agregarCurso);
 }
+//funciones
+function agregarCurso(e){
+    e.preventDefault();
