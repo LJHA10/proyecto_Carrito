@@ -12,3 +12,9 @@ function cargarEventListener(){
 //funciones
 function agregarCurso(e){
     e.preventDefault();
+        
+    
+       
+    if (e.target.classList.contains('agregar-carrito'))
+    console.log(e.target);
+}
